@@ -1,0 +1,29 @@
+html
+    head  
+        link(rel="stylesheet" href="week7.css")
+    body
+        .box 
+            .top 
+                //- h2: 產生標題字2(h1~h6)
+                h2.name 浮光書店 
+                    //- span與div，span不會跳行
+                    span.smalltext IlluminationBooks
+                .tag 
+                    .cirbutton 
+            .bottom        
+                //- ul產生一個資料列，li:項目內容 ，如果內容很多，可以利用|，串接資料內容 
+                ul 
+                    li 
+                        h3 地址：
+                        | 號 2 樓, No. 16赤峰街47巷大同區台北市103
+                    li 
+                        h3 電話： 
+                        | 02 2550 7288
+                    li 
+                        h3 開放時間： 
+                        | 今日正常營業 · 14:00–21:30 
+                //- 前面有小數點為div的類別(class)名稱
+                .buttons 
+                    .btn 前往網站
+                    .btn 更多訊息 
+        
